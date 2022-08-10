@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 172);
+  height: 50vh;
+  color: rgb(241, 218, 11);
+}
+header button {
+  background: rgb(131, 190, 113);
+}
+header button::after {
+  content: "Click here";
+}
+header button:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: rgb(3, 5, 160);
+  font-weight: 600;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header button {
+  background-color: rgb(131, 190, 113);
+}
+
+.contact button {
+  background-color: rgb(131, 190, 113);
+}/*# sourceMappingURL=style.css.map */

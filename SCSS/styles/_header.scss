@@ -1,0 +1,27 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    @include flexCenter();
+  
+    background-color: rgb(37, 37, 172);
+    height: 50vh;
+  
+    color: $textColor;
+    button {
+      background: $primaryBtn;
+      &::after {
+        content: "Click here";
+      }
+      &:hover {
+        cursor: pointer;
+        background-color: yellow;
+        color: rgb(3, 5, 160);
+        font-weight: 600;
+      }
+    }
+  }
+  
